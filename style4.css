@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url(./Lobster-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Gotham';
+    src: url(./Gotham-Black.otf)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.header {
+    background-color: rgb(0, 0, 0, 0.4);
+    height: 80px;
+    color: rgb(255, 255, 255);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hook{
+    font-family: 'Gotham';
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-top: 110px;
+    text-align: center;
+    z-index: 1;
+}
+
+.header h1 {
+    font-family: 'Lobster';
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.user {
+    color: red;
+}
+
+.maincontainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 800px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.maincontainer h1{
+    border-top: 50px;
+    text-align: center;
+    font-family: 'Lobster';
+    font-size: 40px;
+}
+
+.maincontainer p {
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Lobster';
+    font-size: 50px;
+    text-align: left;
+}
+
+.logout{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Gotham';
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+
+.logout_btn, .back_btn{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    height: 40px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-decoration: none;
+}
